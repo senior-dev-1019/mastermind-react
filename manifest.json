@@ -1,0 +1,12 @@
+{
+    "short_name": "MMD",
+    "name": "Mastermind",
+    "start_url": "/app",
+    "permissions": [
+        "serial",
+        "storage",
+        "videoCapture",
+        "audio",
+        "audioCapture"
+    ]
+}

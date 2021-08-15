@@ -1,0 +1,235 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// ::-webkit-scrollbar
+// {
+//   width: 8px;  /* for vertical scrollbars */
+//   height: 8px; /* for horizontal scrollbars */
+// }
+
+// ::-webkit-scrollbar-track
+// {
+//   background: rgba(0, 0, 0, 0.1);
+// }
+
+// ::-webkit-scrollbar-thumb
+// {
+//   background:#000000;
+// }
+
+.btn-xs {
+  padding: 1px 5px;
+  font-size: 11px;
+  line-height: 1.5;
+  border-radius: 2px;
+}
+.swal2-container.swal2-top-right {
+  z-index: 999999;
+}
+
+.clwhite{
+  color: white;
+}
+
+.btn-warning {
+  color: #FFF;
+  background-color: #ff9600;
+  border-color: #ff9600;
+}
+
+.btn-warning:hover {
+  color: #FFF;
+  background-color: #cc7800;
+  border-color: #c27200;
+}
+
+.btn-primary {
+  color: #FFF;
+  background-color: #222;
+  border-color: #222;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background-color: #111;
+  border-color: #111;
+}
+
+.btn-call-play{
+  position: absolute;
+  margin-left: 0px;
+}
+
+.btn-call-download{
+  position: absolute;
+  margin-left: 23px;
+  margin-top: 1px;
+}
+
+.btn-call-copy{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 1px;
+}
+
+.btn-call-snapshot{
+  position: absolute;
+  margin-left: 73px;
+}
+
+.btn-call-delete{
+  position: absolute;
+  margin-left: 99px;
+  margin-top: 1px;
+}
+
+.call-buttons-wrapper{
+  width: 110px;
+  margin-top: -10px;
+}
+
+.newScheduleDivider{
+  width: 30px;
+  margin-top: -13px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-bottom: 2rem;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  background: #000;
+}
+
+.addNewShiftSchedule {
+  padding: 15px;
+}
+
+.addNewShiftSchedule .to {
+    margin-left: 120px;
+    margin-top: -28px;
+}
+
+.addNewShiftSchedule .from i:hover, .addNewShiftSchedule .to i:hover {
+  cursor: pointer;
+}
+
+.addNewShiftSchedule .btn-success{
+    width: 200px;
+    position: absolute;
+    margin-left: 29%!important;
+    margin-top: 40px;
+}
+
+.fillShiftSchedule .btn-success {
+  position: absolute;
+  width: 200px;
+}
+
+.inactive {
+  background: #827d7d;
+  opacity: 0.5;
+}
+
+.deleteShift {
+    margin-top: -50px;
+    margin-left: 200px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.table-actions {
+  i:hover {
+    cursor: pointer;
+  }
+}
+
+/*Checkboxes styles*/
+
+input[type="checkbox"] { display: none; }
+
+input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px 'Open Sans', Arial, sans-serif;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #6cc0e5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.react-daterange-picker {
+  float: left;
+  margin: -25px 0 0 200px;
+}
+
+.newScheduleDivider{
+  width: 30px;
+  margin-top: -13px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-bottom: 2rem;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  background: #000;
+}
+
+.shift-manager i:hover {
+  cursor: pointer;
+}
+
+.table-bordered.shift, .table-bordered.shift thead, .table-bordered.shift tr, .table-bordered.shift td, .table-bordered.shift th{
+  border: 3px solid #000!important;
+}
+.rc-time-picker-panel {
+  z-index: 9999!important;
+}
+
+.rc-time-picker-input {
+  border: none!important;
+  font-size: 13px!important;
+}
+
+.rc-time-picker-clear{
+  margin: 4px 7px 0 0!important;
+}
